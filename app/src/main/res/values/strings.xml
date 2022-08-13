@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ગુજરાતી વાનગીઓ</string>
+    <string name="recipes">મનપસંદ ગુજરાતી વાનગીઓ</string>
+    <string name="method">વિધિ</string>
+    <string name="make_dish_method">રીત</string>
+    <string name="item">સામગ્રી</string>
+    <string name="more_item">અન્ય વાનગીઓ</string>
+    <string name="image">image</string>
+    <string name="version_msg">વરજંન %1$d</string>
+    <string name="settings">સેટિંગ્સ</string>
+</resources>
