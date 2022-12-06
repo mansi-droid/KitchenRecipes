@@ -30,7 +30,7 @@ class RecipesListActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_recipes_list)
 
         //json parsing
-        jsonFileString = getJsonDataFromAsset(applicationContext, "recipes.example.json")
+        jsonFileString = getJsonDataFromAsset(applicationContext, "recipes.json")
         Log.i("data", jsonFileString!!)
         val gson = Gson()
         val listPersonType = object : TypeToken<List<RecipeModel>>() {}.type

@@ -38,7 +38,7 @@ class RecipeDetailActivity : AppCompatActivity() {
         recipeMethod = shared?.getString(Constants.recipeMethod, "")
 
         //json parsing
-        jsonFileString = Utils.getJsonDataFromAsset(applicationContext, "recipes.example.json")
+        jsonFileString = Utils.getJsonDataFromAsset(applicationContext, "recipes.json")
         Log.i("data", jsonFileString!!)
         val gson = Gson()
         val listPersonType = object : TypeToken<List<RecipeModel>>() {}.type
